@@ -4,7 +4,7 @@ const boxen = require("boxen");
 
 // Text + chalk definitions
 const data = {
-	name: chalk.white("             Zena Alsibaai"),
+	name: chalk.white("Zena Alsibaai"),
 	handle: chalk.white("Zena"),
 	npm: chalk.gray("https://www.npmjs.com/") + chalk.red("~zena.alsibaai"),
 	github: chalk.gray("https://github.com/") + chalk.green("Zena-Alsibaai"),
@@ -39,6 +39,7 @@ console.log(
 				padding: 1,
 				margin: 1,
 				borderStyle: "round",
+				align: "center",
 			}
 		)
 	)
