@@ -4,14 +4,18 @@ const boxen = require("boxen");
 
 // Text + chalk definitions
 const data = {
-	name: chalk.white("Zena Alsibaai"),
-	handle: chalk.white("Zena"),
-	npm: chalk.gray("https://www.npmjs.com/") + chalk.red("~zena.alsibaai"),
-	github: chalk.gray("https://github.com/") + chalk.green("Zena-Alsibaai"),
+	name: chalk.white(" Zena Alsibaai"),
+	handle: chalk.magenta("Zena"),
+	npm:
+		chalk.cyan("https://www.npmjs.com/") +
+		chalk.magentaBright("~zena.alsibaai"),
+	github:
+		chalk.cyan("https://github.com/") + chalk.magentaBright("Zena-Alsibaai"),
 	linkedin:
-		chalk.gray("https://www.linkedin.com/in/") + chalk.blue("zena-alsibaai/"),
+		chalk.cyan("https://www.linkedin.com/in/") +
+		chalk.magentaBright("zena-alsibaai/"),
 	web: chalk.cyan("https://zena-alsibaai.github.io/Semaine-07/"),
-	npx: chalk.red("npx") + " " + chalk.white("Zena"),
+	npx: chalk.magenta("npx") + " " + chalk.magentaBright("Zena"),
 	labelNpm: chalk.white.bold("        npm:"),
 	labelGitHub: chalk.white.bold("     GitHub:"),
 	labelLinkedIn: chalk.white.bold("   LinkedIn:"),
@@ -23,7 +27,7 @@ const NEWLINE = "\n";
 const EMPTYLINE = "";
 
 console.log(
-	chalk.green(
+	chalk.cyanBright(
 		boxen(
 			[
 				`${data.name} / ${data.handle}`,
