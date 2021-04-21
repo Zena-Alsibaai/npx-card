@@ -1,0 +1,28 @@
+{
+	"name": "card-zena",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Zena-Alsibaai/npx-card.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Zena-Alsibaai/npx-card/issues"
+	},
+	"homepage": "https://github.com/Zena-Alsibaai/npx-card#readme",
+	"bin": {
+		"zena": "./index.js"
+	},
+	"dependencies": {
+		"boxen": "^5.0.1",
+		"chalk": "^4.1.0",
+		"terminal-image": "^1.2.1"
+	}
+}
