@@ -4,7 +4,7 @@ This is a solo project to learn how to create a npm package et publish it on [np
 
 ## Where ?
 
-This is a challenge assigned by [BECODE](https://becode.org/) training center, to learning how to code npx business card on npm
+This is a challenge assigned by [BECODE](https://becode.org/) training center, to learn how to code npx business card on npm
 
 ## Usage :
 
