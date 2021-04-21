@@ -9,6 +9,7 @@ This is a challenge assigned by [BECODE](https://becode.org/) training center, t
 ## Usage :
 
 Via npx :
-npx
+
+    npx card-zena
 
 Voilà ;)
